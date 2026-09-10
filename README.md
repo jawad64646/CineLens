@@ -454,6 +454,7 @@ git push origin feature/your-feature
 
 If you find a bug or have an idea for improving CineLens, please open an issue with enough detail to reproduce the problem or understand the proposed feature.
 
+---
 # 📱 Platform Support
 
 CineLens supports:
