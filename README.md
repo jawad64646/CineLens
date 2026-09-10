@@ -404,6 +404,55 @@ flutter run -d chrome
 ```
 
 ---
+# 🤝 Contributing
+
+Contributions are welcome and appreciated! If you'd like to improve CineLens, feel free to contribute.
+
+### How to Contribute
+
+1. Fork the repository.
+2. Create a new branch:
+
+```bash
+git checkout -b feature/your-feature
+```
+
+3. Make your changes and keep the code clean and consistent with the existing architecture.
+4. Run formatting, analysis, and tests:
+
+```bash
+dart format .
+flutter analyze
+flutter test
+```
+
+5. Commit your changes with a clear message:
+
+```bash
+git commit -m "feat: add your feature"
+```
+
+6. Push your branch:
+
+```bash
+git push origin feature/your-feature
+```
+
+7. Open a Pull Request and describe the changes you've made.
+
+### Contribution Guidelines
+
+* Follow the existing **Clean Architecture** structure.
+* Keep the **Presentation layer feature-based**, with related pages, widgets, and BLoC/Cubit together.
+* Use clear and meaningful names.
+* Keep widgets focused and reusable where appropriate.
+* Handle errors consistently using the existing failure-handling approach.
+* Avoid unnecessary dependencies.
+* Make sure the project passes `flutter analyze` and `flutter test` before submitting a Pull Request.
+
+### 🐛 Bug Reports & Feature Requests
+
+If you find a bug or have an idea for improving CineLens, please open an issue with enough detail to reproduce the problem or understand the proposed feature.
 
 # 📱 Platform Support
 
