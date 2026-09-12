@@ -12,11 +12,13 @@ import 'package:dio/dio.dart';
 abstract class MovieApiService {
   Future<Either<String, List<MovieEntity>>> getTrendingMovies();
   Future<Either<String, List<MovieEntity>>> getNowPlaying();
+
   Future<Either<String, TrailerEntity>> getMovieTrailer(String? id);
   Future<Either<String, List<MovieEntity>>> getRecommendationBymovie(
     String? id,
   );
   Future<Either<String, List<MovieEntity>>> getSimilarBymovie(String? id);
+
   Future<Either<String, List<MovieEntity>>> getMoviesByquery(String query);
 }
 
